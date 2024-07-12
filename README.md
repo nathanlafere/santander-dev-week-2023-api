@@ -22,7 +22,7 @@ classDiagram
         -String name
         -String email
         -String password
-        -Preferences preferences
+        -List<Preferences> preferences
         -List<Playlist> playlists
     }
     
@@ -48,7 +48,7 @@ classDiagram
     
     class Music {
         -String id
-        -String title
+        -String name
         -String artist
         -String album
         -Number duration
