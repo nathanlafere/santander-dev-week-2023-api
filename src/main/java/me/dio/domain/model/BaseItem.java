@@ -10,15 +10,15 @@ public abstract class BaseItem {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    protected String id;
+    protected Long id;
     
     protected String name;
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

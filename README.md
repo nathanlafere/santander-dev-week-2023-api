@@ -34,7 +34,6 @@ classDiagram
     class Playlist {
         -String id
         -String name
-        -String userId
         -Boolean private
         -List<Music> music
     }

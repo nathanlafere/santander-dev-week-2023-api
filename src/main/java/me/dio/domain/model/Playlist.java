@@ -9,13 +9,8 @@ import jakarta.persistence.OneToMany;
 
 @Entity(name = "tb_playlist")
 public class Playlist extends BaseItem {
-    
-    private final String userId;
     private boolean isPrivate;
-
-    public Playlist(String userId) {
-        this.userId = userId;
-    }
+    
 
     public boolean isPrivate() {
         return isPrivate;
